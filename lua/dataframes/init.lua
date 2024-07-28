@@ -28,7 +28,6 @@ end
 function M.show_df()
 	local wordUnderCursor = get_current_expr()
 	local time = os.time()
-	print(string.format("tw /tmp/%s.csv", time))
 
 	require("dapui").eval(string.format("%s.to_csv('/tmp/%s.csv', index=True)", wordUnderCursor, time))
 	close_floating()
