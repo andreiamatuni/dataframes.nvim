@@ -6,7 +6,7 @@ Visualize Pandas DataFrame variables while debugging in Neovim. Currently depend
 
 - Commands
   - `DFShowDataFrame` - display the Pandas DataFrame variable that's currently highlighted
-  - `DFShowFile` - display a csv file whose file path is currently highlighted in the source code
+  - `DFShowFile` - display a csv file whose file path is currently highlighted in the source code (either absolute path or relative to the file being currently edited)
 
 ## requirements
 
